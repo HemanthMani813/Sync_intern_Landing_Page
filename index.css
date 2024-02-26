@@ -1,0 +1,145 @@
+
+.naav{
+    background-color: #fce1e4;
+    border-radius: 8px;
+}
+.nav-logo-img{
+    height: 50px;
+    border-radius: 50px;
+}
+.nav-icon-s-continers{
+    
+    display: flex;
+    justify-content: center;
+}
+.nav-icon-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.nav-icon-con-para{
+    font-size: 12px;
+}
+.page-conteiner{
+    padding: 18px;
+}
+.brands-conteiner{
+    background-color: #EEF6F2;
+    padding: 40px;
+    display: flex;
+    justify-content: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brands{
+    padding: 20px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    padding: 8px;
+    margin-inline: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.G-brands-card-img{
+    width: 100px;
+    height: 100px;
+    
+}
+.category-cards-conteiner{
+    margin-block: 20px;
+    background-color: #EFEFEF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.Categories-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.category-card{
+    margin-top: 12px;
+    margin-inline: 12px;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.enthentic-wear{
+    background-image: url("https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400867.jpg?t=st=1708861878~exp=1708865478~hmac=ddeded264911a00d2e4739fb3fdab5e358ea92251a996ee0791da7442dc9a1f7&w=996");
+
+}
+.causal-wear{
+    background-image: url("https://img.freepik.com/free-photo/brutal-man-outside_1303-9106.jpg?t=st=1708866241~exp=1708869841~hmac=801398e362c76e10e985f14324804cb53365c6bf6edbe09c8a8e9c864732bdc7&w=996");
+}
+.active-wear{
+    background-image: url("https://img.freepik.com/free-photo/sport-outdoor_144627-38315.jpg?t=st=1708866640~exp=1708870240~hmac=a4d8456b6ac987978ecc24202215ddf98cdf1c7854ab77edebae4e4347310084&w=996");
+}
+.werstern-wear{
+    background-image: url("https://img.freepik.com/free-photo/stylish-girl-plaid-coat-posing-orange-wall_197531-23797.jpg?t=st=1708866534~exp=1708870134~hmac=367fac9c9c1b9537d03102502399ea3cfde1a16f6ded1b4267631e316ebde520&w=996");
+}
+.kids-wear{
+    background-image: url("https://img.freepik.com/free-photo/cute-stylish-children_155003-8330.jpg?t=st=1708866874~exp=1708870474~hmac=3716e715333215794a8bcb88710f9372b4addd490677a3d6e47fd656d9a40ccf&w=996");
+}
+.foot-wear{
+    background-image: url("https://img.freepik.com/free-photo/young-beautiful-stylish-hipster-woman-pink-leather-jacket_285396-3263.jpg?t=st=1708867001~exp=1708870601~hmac=dbb33355f99e2344c59ae108d3348998a16fa8309ab84aa81c90c3a01c3ced6d&w=996");
+}
+.foot-c-wear{
+    background-image: url("https://img.freepik.com/free-photo/front-view-social-distance-concept_23-2148768433.jpg?t=st=1708867057~exp=1708870657~hmac=cdae6f995a8824e895a1d7cb91158df30b0cfc893695bbc7eae02548c830a2e7&w=996");
+}
+.watches-wear{
+    background-image: url("https://img.freepik.com/free-photo/close-up-clock-with-time-change_23-2149241142.jpg?t=st=1708867181~exp=1708870781~hmac=0cf751621ebcbcb17273472a451de0fc14269f8700a9f9abcaf3cab0978398bd&w=996");
+}
+.flips-wear{
+    background-image: url("https://img.freepik.com/free-photo/view-flip-flops-with-summer-essentials-sunglasses_23-2149460022.jpg?t=st=1708867308~exp=1708870908~hmac=d913d5db797b08a8c567e331e8144d2cead7112e28316539d88750ae9ccb2b0f&w=996");
+}
+.suits-wear{
+    background-image: url("https://img.freepik.com/free-photo/modern-business-people-walking_23-2147702070.jpg?t=st=1708867469~exp=1708871069~hmac=e0652c7e4426aae58188a791442365b5877580f47081c87cec31da17744346bc&w=996");
+}
+
+.category-card-img{
+    width: 200px;
+    height: 150px;
+    
+}
+
+.Category-card-content{
+    width: 99%;
+    background-image: url("https://img.freepik.com/free-photo/warm-watercolor-texture_95678-415.jpg?t=st=1708862731~exp=1708866331~hmac=0d12a29437937aa83f70634913c5d9a552e1e98c2b3935936f35425fa746fbcc&w=826");
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+    align-items: center;
+}
+.footer-section{
+    margin-block: 20px;
+    margin-inline: 150px;
+}
+.foot{
+    text-align: center;
+    background-color: #333;
+    color: whitesmoke;
+}
+.icon{
+    margin: 12px;
+    font-size: 40px;
+}
